@@ -1,0 +1,31 @@
+html {
+  background-color: #ecf9ff;
+}
+body {
+  color: #272727;
+  font-family: 'Quicksand', serif;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  padding: 1rem;
+}
+.dashboardEmpty{
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+.dashboardEmpty p{
+  font-size: x-large;
+}
+.equipmentCatlog{
+  margin: 15px 10px;
+}
+.equipmentCatlog span{
+  cursor: pointer;
+}
+.equipmentCatlog span:hover{
+  text-decoration: underline;
+  font-weight: 700;
+}
