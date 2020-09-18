@@ -82,7 +82,7 @@ class App extends Component {
               )}
             </div>
           ))
-      : this.state.selectedItemFromMenu == null ? <div className="dashboardEmpty"> <p>Welcome To <br />Rental Management System</p><span>Please Select Location.</span> </div> : <Dashboard selectedItem={this.state.selectedItemFromMenu} click={this.clickItemHandler}/>}
+      : this.state.selectedItemFromMenu == null ? <div className="dashboardEmpty"> <p>Welcome To <br />Rental Management System</p><span>Please Select Location.</span><div>developed by <b><a href="mailto:skasiviswanad@gmail.com">KASI VISWANATH</a></b></div></div> : <Dashboard selectedItem={this.state.selectedItemFromMenu} click={this.clickItemHandler}/>}
     </>
     )
   }
